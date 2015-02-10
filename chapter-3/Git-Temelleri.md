@@ -1,4 +1,4 @@
-#Yeni Depo Oluşturmak(depoyu initialize etmek)
+##Yeni Depo Oluşturmak(depoyu initialize etmek)
 
 projenin içine gir ve şunu yaz;
 
@@ -6,13 +6,13 @@ projenin içine gir ve şunu yaz;
 $ git init
 ```
 
-#Depo Durumunu Gözden Geçirmek
+##Depo Durumunu Gözden Geçirmek
  
 ```sh
 $ git status
 ```
 
-#Dosya Ve Klasörleri Konaklama Alanına Eklemek
+##Dosya Ve Klasörleri Konaklama Alanına Eklemek
 
 ```sh
 $ git add .
@@ -24,7 +24,7 @@ NOT:Belli bir uzantıya ait tüm dosyaları eklemek için;
 $ git add *.rb
 ```
 
-#Değişiklikleri Depoya İşlemek
+##Değişiklikleri Depoya İşlemek
 
 ```sh
 $ git commit
@@ -36,13 +36,13 @@ Git commit işlemi ile birlikte bir mesaj da yollamak istiyorsak;
 $ git commit -m "Mesaj"
 ```
 
-#Günlük Kayıtlar
+##Günlük Kayıtlar
 
 ```sh
 $ git log
 ```
 
-#İşlemlerin geri alınması
+##İşlemlerin geri alınması
 
 ```sh
 $ rm Gemfile
@@ -52,7 +52,7 @@ Yukarıda Gemfile'i sildik ancak bunu geri getirmemiz gerkti bu komutla geri get
 $ git checkout Gemfile
 ```
 
-#Dalların Kullanımı
+##Dalların Kullanımı
  ###Dal Oluşturma Ve Değiştirme
 
 Yeni dal oluşturmak için ;
@@ -76,29 +76,29 @@ $ git checkout -b baska_dal
 ```
 
 
-#Dalları Birleştirme
+##Dalları Birleştirme
 ```sh
 $ git merge dal_ismi
 ```
 
-#Branch Silme
+##Branch Silme
 ```sh
 $ git branch -d dal_ismi
 ```
 Not:Birleştirilmemiş dalı silmek için -d yeriine  -D parametresini kullanmalıyız.
 
 
-#Uzak Sunucu Adresi Ekleme
+##Uzak Sunucu Adresi Ekleme
 ```sh
 $ git remote add isim sunucun_adresi
 ```
 
-#Dosyaların Sunucuya Transferi
+##Dosyaların Sunucuya Transferi
 ```sh
 $ git push sunucu_ismi dal_ismi
 ```
 
-#Sunucudaki Versiyon İle Birleştirme
+##Sunucudaki Versiyon İle Birleştirme
 ```sh
 $ git pull uzak sunucu_ismi dal_ismi
 ```
