@@ -53,7 +53,7 @@ $ git checkout Gemfile
 ```
 
 ##Dalların Kullanımı
- ###Dal Oluşturma Ve Değiştirme
+###Dal Oluşturma Ve Değiştirme
 
 Yeni dal oluşturmak için ;
 ```sh
