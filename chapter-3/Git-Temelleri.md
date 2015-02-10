@@ -76,12 +76,12 @@ $ git checkout -b baska_dal
 ```
 
 
-##Dalları Birleştirme
+###Dalları Birleştirme
 ```sh
 $ git merge dal_ismi
 ```
 
-##Branch Silme
+###Dal Silme
 ```sh
 $ git branch -d dal_ismi
 ```
