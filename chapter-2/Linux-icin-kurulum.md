@@ -23,6 +23,7 @@ $ ruby -v
 ```
 
 #Rails Kurulumu
+
 1-Ruby kurulumu başarılı olduktan sonra Rails'i kurabiliriz.Bunun için Ruby Gems'i kullanarak rails paketini yükleyebiliriz.
 
 ```sh
