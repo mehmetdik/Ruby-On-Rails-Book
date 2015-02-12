@@ -1,0 +1,6 @@
+<h2>Arabalar</h2>
+<ul>
+	<% @arabalar.each do |araba| %>
+	<li><%= "#{araba[:marka]},#{araba[:model]},#{araba[:yil]}" %></li>
+	<% end %>
+</ul>
