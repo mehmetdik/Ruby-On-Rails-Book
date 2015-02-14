@@ -1,19 +1,21 @@
-app =>Bu klasör içerisinde MVC desenini gerçekleştirmek için kullanacağımız models,views ve controllers klasörleri ve diğer bazı klasörler de bulunmaktadır.
+`app` =>Bu klasör içerisinde MVC desenini gerçekleştirmek için kullanacağımız models,views ve controllers klasörleri ve diğer bazı klasörler de bulunmaktadır.
 
-bin =>Bu klasör çalıştırılabilir dosyaları barındırır.içerisin de bundle rails ve rake dosyalarını barındırmaktadır.
+`bin` =>Bu klasör çalıştırılabilir dosyaları barındırır.içerisin de bundle rails ve rake dosyalarını barındırmaktadır.
 
-config =>Uygulamamıza ilişkin yapılandırma bilgilerinin yer aldığı klasördür.Veri tabanı ile ilgili ayarlar,erişim bilgileri,URL isteklerinin yönlendirilebileceği rotalar gibi bilgileri barındırır.
 
-db =>Veri tabanı ile ilgili şem,aktarmalar,çekirdek veriler gibi dosalar bu klasörde yer alır.
+`config` =>Uygulamamıza ilişkin yapılandırma bilgilerinin yer aldığı klasördür.Veri tabanı ile ilgili ayarlar,erişim bilgileri,URL isteklerinin yönlendirilebileceği rotalar gibi bilgileri barındırır.
 
-lib =>Rails uygulamalarından nadiren kullanılan bir klasördür.Kütüphane kodları,rake görevleri vb. dosyaları barındırır.
+`db` =>Veri tabanı ile ilgili şem,aktarmalar,çekirdek veriler gibi dosalar bu klasörde yer alır.
 
-log =>Sisteme ait günlük dosyaların bulunduğu klasördür.
+`lib` =>Rails uygulamalarından nadiren kullanılan bir klasördür.Kütüphane kodları,rake görevleri vb. dosyaları barındırır.
 
-public =>Uygulamamızın dış dünyaya açık olan yegane klasörüdür.
+`log `=>Sisteme ait günlük dosyaların bulunduğu klasördür.
 
-test =>Uygulamamıza ait testlerin bulunduğu klasördür
+`public` =>Uygulamamızın dış dünyaya açık olan yegane klasörüdür.
 
-tmp =>Önemsiz geçici dosyalar bu klasör de bulunur.
+`test `=>Uygulamamıza ait testlerin bulunduğu klasördür
 
-vendor =>Rails ile birlikte yüklenmeyen paketlere ait kaynak kodlar gibi üçüncü parti yazılımlara ait kodların bulunduğu nadir kullanılan bir klasördür.
+`tmp` =>Önemsiz geçici dosyalar bu klasör de bulunur.
+
+
+`vendor` =>Rails ile birlikte yüklenmeyen paketlere ait kaynak kodlar gibi üçüncü parti yazılımlara ait kodların bulunduğu nadir kullanılan bir klasördür.
